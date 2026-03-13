@@ -15,10 +15,10 @@ private val targetJavaVersion = JavaVersion.VERSION_11
 private val targetJvmVersion = JvmTarget.JVM_11
 
 private fun BaseExtension.android() {
-    compileSdkVersion(34)
+    compileSdkVersion(35)
     defaultConfig {
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
     }
